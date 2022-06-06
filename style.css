@@ -1,0 +1,396 @@
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #222222;
+}
+
+
+/* body header */
+
+#body-header {
+    background-image: url(static/Army-of-Two.png);
+    /* background-color: #993131; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    opacity: 0.9;
+    /* background-attachment: fixed; */
+    padding-top: 1.2rem;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+/* horizontal list  */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.horizontal-list li a {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+}
+
+.nav-menu li a {
+    transition: color 0.5s;
+}
+
+.nav-menu li a:hover {
+    color: rgb(100, 100, 100);
+    /* border-bottom: 1px solid rgb(100, 100, 100); */
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* name and social icons */
+
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    /* word-spacing: 1rem; */
+    color: rgb(200, 200, 200);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.social-icons li a img {
+    margin: 5px;
+    font-size: 1rem;
+    /* border: 2px solid black;
+    border-radius: 50%; */
+    padding: 10px;
+}
+
+
+section {
+    width: 100%;
+    /* height: 150vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    /* border: 2px solid black; */
+}
+
+/* section: :nth-child(2n){
+    background-color: white;
+} */
+
+/* section:nth-child(2n+1){
+    background-color: grey;
+} */
+
+.section-heading {
+    /* width: auto; */
+    font-size: 3rem;
+    /* padding-top: 5vh; */
+    /* margin: 10px auto; */
+    /* margin-bottom: -30rem; */
+    /* padding-bottom: 0; */
+    font-weight: 600;
+    color: rgb(200, 200, 200);
+    font-family: 'Montserrat', sans-serif;;
+}
+
+
+
+/* about section */
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+    /* border-top-left-radius: 50%; */
+    /* background-image: linear-gradient(to top right, #363636, #acacac); */
+    /* background-color: #222222; */
+}
+
+#my-image {
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    margin-top: -25vh;
+    border-radius: 50%;
+    border: 5px solid rgb(85, 85, 85);
+}
+
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#about-text {
+    text-align: center;
+    padding-top: 5vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(200, 200, 200);
+    font-size: 2rem;
+}
+
+#front{
+    color: #000000;
+    /* background-color: rgb(170, 39, 39); */
+    background-color: #993131;
+    border-radius: 3px;
+    padding:0 5px;
+}
+
+/* skills section  */
+
+
+#skills {
+    background-color: #993131;
+    width: 80%;
+    border-radius: 50px;
+    margin: auto;
+    /* border: 5px solid black; */
+    /* color: #222222; */
+}
+
+
+
+#skills-display {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: -2rem;
+}
+
+.skill-name{
+    border: 2px solid black;
+    width: 20%;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 5px;
+}
+
+
+/* common margin classes */
+.mb75px {
+    margin-bottom: 75px;
+}
+
+/* common color classes */
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}
+
+
+
+
+
+/* projects section */
+
+
+.proj-stack{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -3rem;
+}
+
+.proj{
+    border: 2px solid black;
+    width: 25%;
+    height: 15vh;
+    /* margin: 1rem; */
+    /* background-color: rgb(32, 101, 117); */
+    background-color: #319996;
+    border-radius: 20px;
+    /* text-align: center; */
+    margin: 2rem;
+    padding:0 1%;
+    font-size: 1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.proj a{
+    text-decoration: none;
+    color: black;
+}
+
+.proj:hover{
+    background-color: rgb(75, 119, 52);
+}
+
+
+
+
+
+
+
+
+/* contact section */
+
+#contact {
+    background-image: radial-gradient(rgb(154, 59, 142), rgb(50, 50, 50));
+    /* background-color: #993131; */
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 60%;
+    margin: auto;
+}
+
+.contact-section {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-top: -1.5rem;
+}
+
+
+
+
+
+#tele a {
+    text-decoration: none;
+    color: rgb(47, 186, 237);
+}
+
+#tele {
+    border-radius: 5px;
+    padding: 15px;
+    color: rgb(210, 210, 210);
+    background-color: rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#bottom-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 35%;
+    /* border: 2px solid black;
+    border-radius: 20px; */
+}
+
+.bottom-icon{
+    margin: 10%;
+}
+
+
+
+
+/* media queries */
+
+@media screen and (max-width: 576px) {
+    
+
+    #body-header {
+        height: 60vh;
+    }
+
+
+    #my-name{
+        font-size: 8vw;
+        margin-top: -2rem;
+        margin-bottom: 2rem;
+    }
+
+
+    .horizontal-list li {
+        display: inline-block;
+        margin: 0px 10px;
+    }
+
+    .section-heading{
+        font-size: 8vw;
+    }
+
+    #my-image{
+        margin-top: -20vh;
+    }
+
+    #about-text{
+        font-size: 5.5vw;
+    }
+
+    #skills {
+        width: 90%;
+    }
+
+
+    #skills-display {
+        width: 90%;
+    }
+    
+    .skill-name{
+        width: 40%;
+        font-size: 3vw;
+        margin: 3vw;
+    }
+
+    .proj-stack{
+        width: 90%;
+    }
+    
+    .proj{
+        border: none;
+        width: 90%;
+        height: auto;
+        margin: 1rem;
+        padding: 1%;
+        font-size: 4vw;
+        transition: none;
+    }
+
+
+    #contact {
+        width: 80%;
+    }
+    
+    .contact-section {
+        width: 90%;
+    }
+
+    #bottom-social{
+        width: 80%;
+    }
+    
+    .bottom-icon{
+        margin: 5%;
+    }
+
+
+
+
+
+}
