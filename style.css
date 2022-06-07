@@ -367,16 +367,16 @@ section {
     }
 
     .proj-stack {
-        width: 90%;
+        width: 100%;
     }
 
     .proj {
         border: none;
-        width: 90%;
-        height: auto;
+        width: 40%;
+        height: 7rem;
         margin: 1rem;
-        padding: 1%;
-        font-size: 4vw;
+        padding: 2%;
+        font-size: 3vw;
         transition: none;
     }
 
