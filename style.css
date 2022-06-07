@@ -110,7 +110,8 @@ section {
     /* padding-bottom: 0; */
     font-weight: 600;
     color: rgb(200, 200, 200);
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
+    ;
 }
 
 
@@ -151,19 +152,20 @@ section {
     font-size: 2rem;
 }
 
-#front{
+#front {
     color: #000000;
     /* background-color: rgb(170, 39, 39); */
     background-color: #993131;
     border-radius: 3px;
-    padding:0 5px;
+    padding: 0 5px;
 }
 
 /* skills section  */
 
 
 #skills {
-    background-color: #993131;
+    /* background-color: #993131; */
+    background-color: rgb(60, 60, 60);
     width: 80%;
     border-radius: 50px;
     margin: auto;
@@ -181,13 +183,14 @@ section {
     margin-top: -2rem;
 }
 
-.skill-name{
-    border: 2px solid black;
+.skill-name {
+    /* border: 2px solid black; */
+    color: rgb(200, 200, 200);
     width: 20%;
     margin: 1rem;
     display: flex;
     justify-content: center;
-    background-color: beige;
+    background-color: rgb(90, 90, 90);
     border-radius: 5px;
 }
 
@@ -210,7 +213,7 @@ section {
 /* projects section */
 
 
-.proj-stack{
+.proj-stack {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
@@ -220,28 +223,30 @@ section {
     margin-top: -3rem;
 }
 
-.proj{
-    border: 2px solid black;
+.proj {
+    /* border: 2px solid black; */
+    border: none;
     width: 25%;
     height: 15vh;
     /* margin: 1rem; */
     /* background-color: rgb(32, 101, 117); */
-    background-color: #319996;
+    /* background-color: #993131; */
+    background-color: rgb(60, 60, 60);
     border-radius: 20px;
     /* text-align: center; */
     margin: 2rem;
-    padding:0 1%;
+    padding: 0 1%;
     font-size: 1rem;
     transition: background-color 0.3s ease-in-out;
 }
 
-.proj a{
+.proj a {
     text-decoration: none;
-    color: black;
+    color: rgb(200, 200, 200);
 }
 
-.proj:hover{
-    background-color: rgb(75, 119, 52);
+.proj:hover {
+    background-color: rgb(90, 90, 90);
 }
 
 
@@ -254,8 +259,9 @@ section {
 /* contact section */
 
 #contact {
-    background-image: radial-gradient(rgb(154, 59, 142), rgb(50, 50, 50));
+    /* background-image: radial-gradient(rgb(154, 59, 142), rgb(50, 50, 50)); */
     /* background-color: #993131; */
+    background-color: rgb(60, 60, 60);
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     width: 60%;
@@ -280,19 +286,19 @@ section {
 
 #tele a {
     text-decoration: none;
-    color: rgb(47, 186, 237);
+    color: rgb(117, 183, 207);
 }
 
 #tele {
     border-radius: 5px;
     padding: 15px;
-    color: rgb(210, 210, 210);
+    color: rgb(200, 200, 200);
     background-color: rgba(0, 0, 0, 0.2);
     font-weight: 700;
     font-size: 1.2rem;
 }
 
-#bottom-social{
+#bottom-social {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -302,7 +308,7 @@ section {
     border-radius: 20px; */
 }
 
-.bottom-icon{
+.bottom-icon {
     margin: 10%;
 }
 
@@ -312,16 +318,16 @@ section {
 /* media queries */
 
 @media screen and (max-width: 576px) {
-    
+
 
     #body-header {
-        height: 60vh;
+        height: 50vh;
     }
 
 
-    #my-name{
+    #my-name {
         font-size: 8vw;
-        margin-top: -2rem;
+        margin-top: -5rem;
         margin-bottom: 2rem;
     }
 
@@ -331,38 +337,40 @@ section {
         margin: 0px 10px;
     }
 
-    .section-heading{
+    .section-heading {
         font-size: 8vw;
     }
 
-    #my-image{
+    #my-image {
         margin-top: -20vh;
     }
 
-    #about-text{
+    #about-text {
         font-size: 5.5vw;
     }
 
     #skills {
         width: 90%;
+        /* padding-top: 3rem; */
+        padding-bottom: 3rem;
     }
 
 
     #skills-display {
         width: 90%;
     }
-    
-    .skill-name{
+
+    .skill-name {
         width: 40%;
         font-size: 3vw;
         margin: 3vw;
     }
 
-    .proj-stack{
+    .proj-stack {
         width: 90%;
     }
-    
-    .proj{
+
+    .proj {
         border: none;
         width: 90%;
         height: auto;
@@ -375,17 +383,22 @@ section {
 
     #contact {
         width: 80%;
+        padding-bottom: 2rem;
     }
-    
+
+    #tele {
+        margin-top: 0;
+    }
+
     .contact-section {
         width: 90%;
     }
 
-    #bottom-social{
+    #bottom-social {
         width: 80%;
     }
-    
-    .bottom-icon{
+
+    .bottom-icon {
         margin: 5%;
     }
 
